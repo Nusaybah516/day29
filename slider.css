@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    width: 1200px;
+    height: 600px;
+    background-image: url("chip.jpg");
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("rust.jpg");
+    }
+    50%{
+        background-image: url("welder.jpg");
+    }
+    75%{
+        background-image: url("laptop.jpg");
+    }
+    100%{
+        background-image: url("chip.jpg");
+    }
+}
+
