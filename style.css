@@ -1,0 +1,172 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family:'PT Sans',sans-serif;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .about-section{
+    width: 100vw;  
+}
+
+.about-container{ 
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+h2{
+    color: black;
+    font-style: italic;
+    font: 1em sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  text-decoration: steelblue;
+}
+
+marquee{
+    color: rgb(11, 75, 100);
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'PT Sans',sans-serif;
+}
+
+.right-box{    
+    width: 40%;
+    margin-left: 6%;
+    background-image: url("ceo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    border-radius: 20px;
+}
+
+footer{
+  background-color:skyblue;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer h5{
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+@media only screen and (max-width:840px){
+  .row-one,.row-two,.row-three,.top-row,.bottom-row{
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  
+  .grid-item{
+      width: 100%;
+  }
+}
+@media only screen and (max-width:420px){
+  h1{
+      width: 300px;
+      font-size: 2.9em;
+  }
+
+}
+@media only screen and (max-width:320px){
+  h1{
+      width: 250px;
+      font-size: 2.7em;
+  }
+
+}
+@media only screen and (max-width:270px){
+  h1{
+      width: 200px;
+      font-size: 2.5em;
+  }
+
+}
+@media only screen and (max-width:220px){
+  h1{
+      width: 150px;
+      font-size: 2em;
+  }
+
+}
+@media only screen and (max-width:170px){
+  h1{
+      width: 100px;
+      font-size: 1.9em;
+  }
+
+}
